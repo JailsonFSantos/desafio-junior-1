@@ -47,7 +47,7 @@ const ExcluirModal = ({ isOpen, onClose, petToDelete }) => {
         >
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2em' }}>
             <Image src="/icon-excluir.svg" alt="Excluir" width={40} height={40} style={{ marginRight: '10px' }} />
-            <h1 style={{ color: 'white', margin: 0 }}>Excluir Pet</h1>
+            <h1 style={{ color: 'white', margin: 0 }}>Excluir</h1>
           </div>
           <div
             style={{

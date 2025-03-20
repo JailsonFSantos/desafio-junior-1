@@ -60,7 +60,7 @@ const AnimalCard = ({ pet, handleEdit, handleDelete }) => {
             />
           </div>
           <div style={{ marginLeft: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
-            <h3 style={{ margin: 0 }}>{pet.name}</h3>
+            <h3 style={{ margin: 0 }}>Nome: {pet.name}</h3>
             <p style={{ margin: 0 }}>Dono: {pet.ownerName}</p>
           </div>
         </div>

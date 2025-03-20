@@ -90,7 +90,7 @@ const EditarModal = ({ isOpen, onClose, petToEdit }) => {
         >
           <div style={{ display: 'flex', alignItems: 'center', marginBottom: '2em' }}>
             <Image src="/icon-editar.svg" alt="Editar" width={40} height={40} style={{ marginRight: '10px' }} />
-            <h1 style={{ color: 'white', margin: 0 }}>Editar Pet</h1>
+            <h1 style={{ color: 'white', margin: 0 }}>Editar</h1>
           </div>
           <div
             style={{
